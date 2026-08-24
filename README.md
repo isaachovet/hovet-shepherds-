@@ -1,13 +1,27 @@
-# hovetshepherds-site
+# Hovet Shepherds landing page
 
-A simple, deployable static website for `hovetshepherds.com`, built for Netlify with plain HTML, CSS, and a small amount of JavaScript.
+A forward-facing landing page for Isaac and Donia Hovet's donor-supported work as Standing Stone Shepherds. The page serves two primary audiences: ministry leaders and spouses seeking confidential care, and people who want to make that care possible through financial partnership.
+
+The 2026 redesign follows the Standing Stone brand system, foregrounds testimonies, and gives visitors three clear actions:
+
+- receive care;
+- partner financially;
+- join the Hovets' email list.
 
 ## Project Structure
 
-- `index.html` contains the full one-page site, copy, navigation, and Netlify contact form
-- `styles.css` contains the visual design, layout, responsiveness, and accessibility styling
-- `script.js` adds restrained scroll reveal behavior
+- `index.html` contains the full one-page site, copy, navigation, calls to action, and Netlify contact form
+- `thank-you.html` confirms successful form submissions
+- `styles.css` contains the Standing Stone visual system, responsive layout, and accessibility styling
+- `script.js` adds mobile navigation, restrained scroll reveal behavior, and the current footer year
 - `netlify.toml` tells Netlify to publish this folder directly
+
+## Primary links
+
+- Care contact: the Netlify form on the landing page
+- Financial partnership: `https://standingstone.givevirtuous.org/donate/shepherd-donation?projectCodePreselect=2102.82`
+- Email list: `https://mailchi.mp/2d053c3e97a3/hovet-ministries-landing-page`
+- Pastoral reflections: `https://hovetshepherds.substack.com`
 
 ## Preview Locally
 
